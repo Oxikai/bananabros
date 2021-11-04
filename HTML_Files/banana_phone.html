@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Banana Bros</title>
+            <meta name="Keywords" content="fire gator thursdays, alligators, fire, html, css, coding, IT">
+            <meta charset="utf-8">
+                <link href="../CSS_Files/Banana_Basic_Style.css" rel="stylesheet" >
+                
+    </head>
+   
+    <body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img id="banImg" src="../Images/cooltext.png " alt="Banana Bros">
+        <header id="fireback" id="gator" id="gator2"> 
+       <nav>
+           <ul>
+               <li><a class="item1" href="home_page.html">Home</a></li>
+               <li><a  class="item2" href="banana_phone.html">Banana Phone</a></li> 
+               <li><a  class="item4" href="banana_pad.html">Banana Pad</a></li>
+               <li><a  class="item3" class="active" href="banana_computer.html">Banana Computer</a></li>
+           </ul>
+       </nav> 
+    <!----Above code should start every page of our website---->
+
+    <script src="../.JS/AdScript.js">intervalTime()</script>
+    <a href="Qr%20Code%20Ad.html" target="_blank" style="text-decoration: none; color:inherit; cursor: url(../Images/Cursor2.png), auto;">
+        <ad id="adBlock">
+            <img src="../Images/Qr Code.png" alt="" width="50px">
+            <h3>Join Our Discord Server!</h3>
+        </ad>
+    </a>
+    </header>
+        <main>
+            <script src="../.JS/Play Banana Song.js"></script>
+            <audio preload="auto" id="BananaAUD">
+                <source src="../Audio/banana-song-im-a-banana.mp3" type="audio/mpeg">
+            </audio>
+            <img onmouseenter="playAudio();" onmouseleave="stopAudio();" src="../Images/DancingBannana.gif" alt="Error 1014: You tried to hack the Banana Bros. So they Banana Bros hack you">
+            <img src="../Images/yiga_4.png" alt="Yiga 4" class="yiga1" width="25%" height="25%" hidden>
+            <section id="BPintro">
+        <section>
+            </article> 
+                <article>
+                    <section id="mainText">
+                        <h1 class="Bhead">The Banana Phone!</h1>
+                   <p>The feud between Apple and Android is over! The obvious alternative is here! 
+                       The Banana Phone has it all! The stylish features<br>
+                        of an Apple Phone with the compatibility of an Android Phone.
+                       Here at the Banana Bros we value ergonomics and functionality.<br>
+                        No more sharp and obtrusive square phones, say hello to the smooth, sleek,
+                         and easily graspable Banana Phone. Our stem <br>
+                          technology allows for users to easily peel back their phones for repair. Rummage around in your Banana all you want! Unlike <br>
+                        certain other fruit themed corporations, all of our products are wifi 6 compatible.
+                        You’ll go bananas for the banana phone!
+                    </p>
+                    <br>
+                    <img src="../Images/BANANAPHONE.png" alt="banana phone" class="aside" width="800px">
+                </section>
+                <article>
+                    <h2>Our HQ</h2>
+                    <img src="../Images/rock.png" alt="Rock" width="150px"> <img src="../Images/lighthouse.png"
+                    alt="Lighthouse" width="150px"><br><img src="../Images/hq.png" alt="HQ" width="150px">
+                    <img src="../Images/land.png" alt="Land" width="150px">
+                </aside>
+                </article>
+        </section>
+        <aside id="BananaQuotes">
+            <button class="collapsible" style="width: 100%; text-align: left; background-color: rgb(209, 160, 0); padding: 5px 0px 2px 10px;">
+                <img id="arrIcon" src="../Images/ArrowIconRight.png" width="15px">
+                 Reviews</button>
+            <section class="content">
+               
+                <ul>
+                    <dl>
+                    <dt>Aidan Cooper</dt><img src="../Images/aidan.png" alt="aidan's glorious face" width=200px>
+                    <dd><p><cite>"Gifted to me by my friend/stalker (Josh Reid). Very high quality! 
+                        Runs Borderlands at a crisp 5 frames per second!"</cite></p></dd>
+                    <dt>Jeffery Bezos</dt><img src="../Images/jeff-bezos.jpg" alt="snake man" width=200px>
+                    <dd><p><cite>"Cool phone. Do you happen to sell banana shaped bottles in bulk?"</cite></p></dd>
+                    </dl>
+                    <dt>Tim Cook</dt><img src="../Images/timmyboy.jpg" alt="timmy" width=200px>
+                    <dd><p><cite>"I can't compete. I'm selling Apple and living in a 3x3ft hole for the rest of my life. Thanks for ruining my dreams."</cite></p></dd>
+                    </dl>
+                    <dt>Obama (Couldn't Locate Last Name)</dt><img src="../Images/no teeth.jpg" alt="teeth" width=200px>
+                    <dd><p><cite>"Broke all of my teeth. 10/10."</cite></p></dd>
+                    <dt>Classified Government Official</dt><img src="../Images/hacker.jpg" alt="hacker" width=200px>
+                    <dd><p><cite>"We will not be having any hackers 'slip' through our systems."</cite></p></dd>
+                    </dl>
+                    </dl>
+                   </ul>
+    
+               <script>
+                   var coll = document.getElementsByClassName("collapsible");
+                   var i;
+                   
+                   for (i = 0; i < coll.length; i++) {
+                     coll[i].addEventListener("click", function() {
+                       this.classList.toggle("active");
+                       var content = this.nextElementSibling;
+                       if (content.style.display === "block") {
+                         content.style.display = "none";
+                         document.getElementById("arrIcon").src = "../Images/ArrowIconLeft.png";
+                         document.getElementById("BananaQuotes").style = "    background: rgb(140,215,72);background: linear-gradient(-215deg, rgba(140,215,72,1) 0%, rgba(255,243,58,1) 7%, rgba(255,243,33,1) 84%, rgba(175,86,1,1) 100%);height:50px;width: 10%;padding: 0px;margin-right: 10px;position: sticky;left: 100%;bottom: 60%;";
+                       } else {
+                         content.style.display = "block";
+                         document.getElementById("arrIcon").src = "../Images/ArrowIconRight.png";
+                         document.getElementById("BananaQuotes").style = "visibility: visible;";
+                         document.getElementById("BananaQuotes").style = "    background: rgb(140,215,72);background: linear-gradient(-215deg, rgba(140,215,72,1) 0%, rgba(255,243,58,1) 7%, rgba(255,243,33,1) 84%, rgba(175,86,1,1) 100%);height:500px;width: 20%;padding: 0px;margin-right: 10px;position: sticky;left: 80%;bottom: 15%;overflow-y: scroll;";
+                       }
+                     });
+                   }
+                   </script>
+            </section>
+            
+         </aside>  
+        </main> 
+        <footer>🍌The Yiga Clan Is Always Watching🍌</footer>
+    </body>
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>

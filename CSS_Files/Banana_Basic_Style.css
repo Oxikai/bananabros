@@ -1,0 +1,461 @@
+@charset "utf-8";
+
+/* Author: Matthew Kovach
+   Date: 9/2/2020 */
+
+   .item1 {
+    display: inline;
+    padding: 20px;
+    background:url(../Images/banimg.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    align-items: center;
+    justify-content: center; 
+    background-position: center;
+    color: black;
+}
+.item2 {
+    display: inline;
+    padding: 20px;
+    background:url(../Images/banimg.png);
+    background-size: 61%;
+    background-repeat:no-repeat;
+    align-items: center;
+    justify-content: center; 
+    background-position: center;
+    color: black;
+}
+.item3 {
+    display: inline;
+    padding: 20px;
+    background:url(../Images/banimg.png);
+    background-size: 55%;
+    background-repeat:no-repeat;
+    align-items: center;
+    justify-content: center; 
+    background-position: center;
+    color: black;
+}
+.item4 {
+    display: inline;
+    padding: 20px;
+    background:url(../Images/banimg.png);
+    background-size: 70%;
+    background-repeat:no-repeat;
+    align-items: center;
+    justify-content: center; 
+    background-position: center;
+    color: black;
+}
+/* BB styles */
+
+    html{
+        background: rgb(215,134,72);
+        background: linear-gradient(90deg, rgba(215,134,72,1) 0%, rgba(255,243,58,1) 49%, rgba(175,86,1,1) 100%);
+    font-family: "Times New Roman", Times, serif;
+        
+}
+body{
+    
+    border-radius: 15px;
+    cursor: url(../Images/Cursor.png), auto;
+}
+body > footer{
+    background-color:rgb(255,221,51);
+    color: brown;
+    font: normal small-caps bold 0.9em/3em
+     "Times New Roman", Times, serif;
+    text-align: center;
+    border-radius: 15px;
+    border-color: brown;
+    border-style: solid;
+}
+header{
+    text-align: center;
+    height: 70px;
+}
+
+main {
+    display: block;
+    
+}
+#banImg {
+    text-align: center;
+    height: 120px;
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 15px;
+    display: block;
+    position: absolute;
+    margin: 0px 0px 50px 0px;
+    top:20px;
+    left:20px;
+}  
+li > a {
+    text-decoration: none;
+    color:black;
+    
+}
+li{
+    list-style-type: none;
+    
+}
+nav {
+    display: inline-block;
+}
+
+li a:hover {
+    color: brown;
+}
+
+.active {
+    color: black;
+    font-weight: bold;
+}
+
+nav > ul > li {
+    margin-top: 0.5vw;
+    text-align: center;
+    overflow: hidden;
+    background-position: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    background-position: -5vw;
+    
+    background-size: 10vw;
+    
+}
+#fireback {
+    background-image: url(../Images/Purple_Chicken_Rhino.png);
+    background-size: 6% 100%;
+}
+#gator {
+    position: relative;
+    min-width: 10%;
+    min-height: 10%;
+    max-width: 25%;
+    max-height: 25%;
+    left: 9vw;
+    
+    
+    
+}
+#gator2 {
+   position: relative;
+   min-width: 10%;
+   min-height: 10%;
+   max-height: 25%;
+   max-width: 25%;
+   left: 39vw;
+   
+
+}
+
+/*About page css*/
+
+h1 {
+    width: 200px;
+    height: auto;
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 15px;
+    border-style: dashed;
+    text-align: center;
+     
+}
+
+.Bhead{
+    font-size: 1.5vw;
+    width: 200px;
+    height: auto;
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 15px;
+    border-style: dashed;
+    text-align: center;
+}
+
+.aside {
+    background-color: rgb(51,26,0);
+    border-radius: 20%;
+}
+.center{
+  margin-right: 20vw;
+  margin-left: 35vw;
+}
+.yiga {
+    display: block;
+    position: absolute;
+    left: 590px;
+    bottom: 490px;
+    border-radius: 20%;
+
+}
+
+.yiga1 {
+    display: block;
+    position: absolute;
+    left: 37%;
+    top: 20%;
+    border-radius: 20%;
+
+}
+
+.yiga2 {
+    display: block;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    border-radius: 20%;
+
+}
+
+.yiga3 {
+    display: block;
+    position: absolute;
+    left: 630px;
+    bottom: 540px;
+    border-radius: 20%;
+
+}
+
+#team {
+    
+    width: 500px;
+    height: auto;
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 15px;
+}
+#taxfraud {
+    
+    position: relative;
+    display:inline-block;
+    top: 18vw;
+    left: 10vw;
+    
+    
+}
+#leader {
+    position: absolute;
+    display:inline-block;
+    top: 18vw;
+    left: 73vw;
+}
+#monkey {
+    position: absolute;
+    display:inline-block;
+    top: 32vw;
+    left: 10vw;
+    
+}
+#figcapteam {
+    position: absolute;
+    display:inline-block;
+    top: 44vw;
+    left: 30vw;
+}
+#motto {
+    position: relative;
+    display:inline-block;
+    top: 0px;
+    left: 175px;
+}
+#BananaQuotes {
+    /* background: rgba(140,215,72, 0.1); */
+    background: linear-gradient(-215deg, rgba(140,215,72,0.8) 0%, rgba(255,243,58,0.8) 7%, rgba(255,243,33,0.8) 84%, rgba(175,86,1,0.8) 100%);
+    height:500px;
+    width: 20%;
+    padding: 0px;
+    margin-right: 10px;
+    position: sticky;
+    left: 80%;
+    bottom: 15%;
+    overflow-y: scroll;
+    transition: width 0.2s;
+}
+
+#BananaQuotes button {
+    cursor: url('../Images/Cursor2.png'), pointer;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(209, 160, 0);
+    padding: 5px 0px 2px 10px;
+}
+
+#reviewMenu {
+    background-color: rgb(209, 160, 0);
+    padding: 5px 0px 2px 10px;
+}
+
+#location {
+    position: absolute;
+    display:inline-block;
+    top: 32vw;
+    left: 73vw;
+}
+
+
+#BPintro {
+    size: 2em;
+}
+
+
+#sponserSec {
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    width: 300px;
+    left: 40%;
+}
+
+#sponserSec h3 {
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#sponserSec p {
+    padding-left: 10px;
+    width: 300px;
+}
+
+
+#mainText {
+    /*border: thin black solid;*/
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+}
+
+
+ad {
+    background-color: white;
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+ad img {
+    float: left;
+    margin: 10px 5px;
+}
+
+ad h3 {
+    padding: 5px;
+}
+
+
+a {
+    cursor: url(../Images/Cursor2.png), auto;
+}
+
+
+#FGimg {
+    display: block;
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    width: 1000px;
+}
+
+.flexContainer h2, .flexContainer h1 {
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    position: relative;
+    bottom: 10%;
+    visibility: hidden;
+    transition: bottom 0.125s, color 1s;
+}
+
+.item {
+    width: 280px;
+    height: 280px;
+    border:rgba(0, 0, 0, 0) thin solid;
+    border-radius: 15px;
+    transition: width 1s, height 1s;
+}
+
+.item:hover {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(122, 122, 122, 0.1)
+}
+
+.item img {
+    width: 100%;
+    height: 100%
+}
+
+.item:hover h2 {
+    color: rgba(255, 255, 255, 1);
+    visibility: visible;
+    bottom: 45%;
+}
+
+.item:hover h1 {
+    color: rgba(255, 255, 255, 1);
+    visibility: visible;
+    bottom: 90%;
+}
+
+.item button {
+    cursor: url(../Images/Cursor2.png), pointer;
+    visibility: hidden;
+    position: relative;
+    bottom: 10%;
+    left: 35%;
+    background-color: rgb(26, 222, 0);
+    transition: bottom 0.125s;
+}
+
+.item:hover button {
+    visibility: visible;
+    bottom: 45%;
+}
+
+.item button:hover {
+    background-color: rgb(21, 179, 0);
+}
+
+
+video {
+    cursor: url(../Images/Cursor.png), inherit;
+}
+
+video::-webkit-media-controls-play-button, video::-webkit-media-controls-volume-slider, video::-webkit-media-controls-timeline, video::-webkit-media-controls-fullscreen-button, audio::-webkit-media-controls-mute-button {
+    cursor: url(../Images/Cursor2.png), pointer;
+}
+
+
+@media screen and (max-width: 1600px) {
+    #FGTquotes {
+        display: none;
+    }
+}
